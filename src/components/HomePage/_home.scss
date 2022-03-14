@@ -1,0 +1,21 @@
+.main__homepage__container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .hompage__container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .logo__container {
+      margin: auto;
+      width: 300px;
+      height: 300px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

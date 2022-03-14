@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  //   sans-serif;
+  font-family: poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------- Utilities------------ */
+@import url("./_utilities.scss");
+
+/* ---------- About Page------------ */
+@import url("../components/AboutUs/_aboutus.scss");
+
+/* ---------- apartments Page------------ */
+@import url("../components/Apartments/_apartments.scss");
+
+/* ---------- Home Page------------ */
+@import url("../components/HomePage/_home.scss");
+
+/* ---------- Login LandLord Page------------ */
+@import url("../components/Login/LoginLandLord/_loginlandlord.scss");
+
+/* ---------- Login Tenant Page------------ */
+@import url("../components/Login/LoginTenant/_logintenant.scss");
+
+/* ---------- Properties Page------------ */
+@import url("../components/Properties/_properties.scss");
+
+/* ---------- Signup Land Lord Page------------ */
+@import url("../components/SignUp/SignUpLandLord/_signuplandlord.scss");
+
+/* ---------- Sign Up Tenant Page------------ */
+@import url("../components/SignUp/SignUpTenant/_signuptenant.scss");
